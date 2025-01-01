@@ -1,0 +1,88 @@
+# Eclipse IDE specific files
+/.classpath
+/.project
+/.settings/
+/.apt_generated/
+/.factorypath/
+/.springBeans
+
+# Maven specific files
+/.mvn/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IntelliJ IDEA specific files (if project imported in IntelliJ)
+/.idea/
+/*.iml
+*.iws
+out/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+*.class
+
+# Spring Boot specific files (if used)
+/*.war
+/*.jar
+BOOT-INF/
+META-INF/
+org/
+
+# Node.js / npm related files (if frontend integration)
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Configuration files
+*.properties
+*.yml
+*.yaml
+*.xml~
+*.json
+
+# Sensitive data
+*.key
+*.crt
+*.pem
+*.p12
+*.jks
+*.keystore
+*.env
+*.password
+
+# IDE-specific or editor backup files
+*.~*
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# Operating system-specific files
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+__MACOSX/
+
+# SQL and database backups
+*.sql
+*.sqlite
+*.db
+
+# Logs and cache
+/logs/
+/tmp/
+/hs_err_pid*
