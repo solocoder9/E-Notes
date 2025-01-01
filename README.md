@@ -111,6 +111,6 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 
 ## 📧 Contact
 For questions or suggestions, feel free to reach out:
-- **Email:** yourname@example.com
-- **GitHub:** [yourusername](https://github.com/yourusername)
+- **Email:** solocoder9@gmail.com
+- **GitHub:** [yourusername](https://github.com/solocoder9)
 
