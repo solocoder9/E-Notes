@@ -21,7 +21,7 @@ E-Notes is a **Spring MVC-based web application** that allows registered users t
 ## 📋 Prerequisites
 1. **Java 8 or later** - [Download Here](https://www.oracle.com/java/technologies/javase-downloads.html)
 2. **Apache Maven** - [Download Here](https://maven.apache.org/download.cgi)
-3. **MySQL Database** - Ensure MySQL Server is running.
+3. **MySQL Database** - [Download Here](https://dev.mysql.com/downloads/installer/)
 4. **Eclipse IDE** - [Download Here](https://www.eclipse.org/downloads/)
 
 ## 🚦 Setup Instructions
