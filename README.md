@@ -27,7 +27,7 @@ E-Notes is a **Spring MVC-based web application** that allows registered users t
 ## 🚦 Setup Instructions
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/enotes-springmvc.git
+git clone https://github.com/solocoder9/E-Notes.git
 cd enotes-springmvc
 ```
 
@@ -39,43 +39,20 @@ cd enotes-springmvc
 ### 3. Configure Database
 1. Create a database in MySQL:
 ```sql
-CREATE DATABASE enotes;
+CREATE DATABASE enotes_db;
 ```
-2. Update the database connection details in `hibernate.cfg.xml`.
+2. Update the database connection details in `spring-servlet.xml`.
 
 ### 4. Build and Run the Project
 ```bash
 mvn clean install
-mvn tomcat7:run
+mvn tomcat9:run
 ```
 
 ### 5. Access the Application
 Open your browser and navigate to: 
 ```
-http://localhost:8080/enotes/
-```
-
-## 📂 Directory Structure
-```
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── com.controllers
-│   │   │   ├── com.entities
-│   │   │   ├── com.helper
-│   │   │   ├── com.servlets
-│   │   ├── webapp
-│   │   │   ├── WEB-INF
-│   │   │   ├── views
-│   │   │   │   ├── index.jsp
-│   │   │   │   ├── add_notes.jsp
-│   │   │   │   ├── navbar.jsp
-│   │   │   │   ├── all_js_css.jsp
-│   ├── test
-├── target
-├── pom.xml
-├── README.md
-├── .gitignore
+http://localhost:8080/E-Notes/
 ```
 
 ## 🧑‍💻 Usage
