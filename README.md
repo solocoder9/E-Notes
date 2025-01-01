@@ -29,8 +29,8 @@ E-Notes is a **Spring MVC-based web application** that allows registered users t
 ## 🚦 Setup Instructions
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/solocoder9/E-Notes.git
-cd E-Notes
+git clone https://github.com/solocoder9/E-Notes-WebApp.git
+cd E-Notes-WebApp
 ```
 
 ### 2. Import Project in Eclipse
@@ -54,7 +54,7 @@ mvn tomcat9:run
 ### 5. Access the Application
 Open your browser and navigate to: 
 ```
-http://localhost:8080/E-Notes/
+http://localhost:8080/E-Notes-WebApp/
 ```
 
 ## 🌐 API Endpoints
