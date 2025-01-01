@@ -12,9 +12,10 @@ E-Notes is a **Spring MVC-based web application** that allows registered users t
 - 🔒 **Security** - Access restricted to registered users only.
 
 ## 🛠️ Tech Stack
-- **Back-End:** Java, Spring MVC, Hibernate (ORM)
+- **Back-End:** Java, Spring MVC (with Hibernate Integration)
 - **Front-End:** JSP, Bootstrap, HTML, CSS
 - **Database:** MySQL
+- **Server:** Apache Tomcat
 - **Build Tool:** Maven
 - **IDE:** Eclipse
 
@@ -23,12 +24,13 @@ E-Notes is a **Spring MVC-based web application** that allows registered users t
 2. **Apache Maven** - [Download Here](https://maven.apache.org/download.cgi)
 3. **MySQL Database** - [Download Here](https://dev.mysql.com/downloads/installer/)
 4. **Eclipse IDE** - [Download Here](https://www.eclipse.org/downloads/)
+5. **Apache Tomcat** - [Download Here](https://tomcat.apache.org/download-90.cgi)
 
 ## 🚦 Setup Instructions
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/solocoder9/E-Notes.git
-cd enotes-springmvc
+cd E-Notes
 ```
 
 ### 2. Import Project in Eclipse
@@ -54,6 +56,18 @@ Open your browser and navigate to:
 ```
 http://localhost:8080/E-Notes/
 ```
+
+## 🌐 API Endpoints
+### **Authentication**
+- **POST** `/register` - Register a new user.  
+- **POST** `/login` - Log in with existing credentials.  
+- **GET** `/logout` - Log out the current session.  
+
+### **Notes Management**
+- **GET** `/notes` - View all notes for the logged-in user.  
+- **POST** `/notes/add` - Add a new note.  
+- **PUT** `/notes/edit/{id}` - Edit an existing note by ID.  
+- **DELETE** `/notes/delete/{id}` - Delete a note by ID.  
 
 ## 🧑‍💻 Usage
 1. **Register:** Create an account.
@@ -89,5 +103,5 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 ## 📧 Contact
 For questions or suggestions, feel free to reach out:
 - **Email:** solocoder9@gmail.com
-- **GitHub:** https://github.com/solocoder9
+- **GitHub:** [solocoder9](https://github.com/solocoder9)
 
